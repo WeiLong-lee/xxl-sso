@@ -108,6 +108,7 @@ public class XxlSsoWebFilter extends HttpServlet implements Filter {
         request.setAttribute(Conf.SSO_USER, xxlUser);
 
 
+
         // already login, allow
         chain.doFilter(request, response);
         return;

@@ -11,6 +11,8 @@
 
         <a href="${request.contextPath}/logout">Logout</a>
 
+        <a href="http://xxlssoclient2.com:8082/xxl-sso-token-sample-springboot/">sso-token</a>
+
     </div>
 
 </body>
